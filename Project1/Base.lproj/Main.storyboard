@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -46,6 +47,38 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gfM-OE-1b0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1084" y="122.78860569715144"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="fZ7-9T-gWw">
+            <objects>
+                <viewController storyboardIdentifier="Detail" useStoryboardIdentifierAsRestorationIdentifier="YES" id="rKq-gz-xFG" customClass="DetailViewController" customModule="Project1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LuE-I3-s4b"/>
+                        <viewControllerLayoutGuide type="bottom" id="dWa-d4-aw3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DoB-Ds-4MY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tY3-iM-iR4">
+                                <rect key="frame" x="0.0" y="-34" width="375" height="701"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tY3-iM-iR4" firstAttribute="top" secondItem="DoB-Ds-4MY" secondAttribute="topMargin" constant="-34" id="Jhz-EM-znb"/>
+                            <constraint firstItem="tY3-iM-iR4" firstAttribute="bottom" secondItem="dWa-d4-aw3" secondAttribute="top" id="MsJ-lg-nGh"/>
+                            <constraint firstAttribute="trailing" secondItem="tY3-iM-iR4" secondAttribute="trailing" id="PNe-5n-sAK"/>
+                            <constraint firstItem="tY3-iM-iR4" firstAttribute="leading" secondItem="DoB-Ds-4MY" secondAttribute="leading" id="pov-sA-epc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="tY3-iM-iR4" id="Oz0-vM-Uxc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rhy-rg-2Bk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1941.5999999999999" y="133.5832083958021"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="loo-Nc-kNS">

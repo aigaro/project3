@@ -22,6 +22,7 @@
 		276794541E2E515E00F65B5A /* nssl0049.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2767944A1E2E515E00F65B5A /* nssl0049.jpg */; };
 		276794551E2E515E00F65B5A /* nssl0051.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2767944B1E2E515E00F65B5A /* nssl0051.jpg */; };
 		276794561E2E515E00F65B5A /* nssl0091.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2767944C1E2E515E00F65B5A /* nssl0091.jpg */; };
+		276794581E2E5EBA00F65B5A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276794571E2E5EBA00F65B5A /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		2767944A1E2E515E00F65B5A /* nssl0049.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0049.jpg; sourceTree = "<group>"; };
 		2767944B1E2E515E00F65B5A /* nssl0051.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0051.jpg; sourceTree = "<group>"; };
 		2767944C1E2E515E00F65B5A /* nssl0091.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0091.jpg; sourceTree = "<group>"; };
+		276794571E2E5EBA00F65B5A /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			children = (
 				276794301E2E508300F65B5A /* AppDelegate.swift */,
 				276794321E2E508300F65B5A /* ViewController.swift */,
+				276794571E2E5EBA00F65B5A /* DetailViewController.swift */,
 				276794341E2E508300F65B5A /* Main.storyboard */,
 				276794371E2E508300F65B5A /* Assets.xcassets */,
 				276794391E2E508300F65B5A /* LaunchScreen.storyboard */,
@@ -184,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				276794581E2E5EBA00F65B5A /* DetailViewController.swift in Sources */,
 				276794331E2E508300F65B5A /* ViewController.swift in Sources */,
 				276794311E2E508300F65B5A /* AppDelegate.swift in Sources */,
 			);
