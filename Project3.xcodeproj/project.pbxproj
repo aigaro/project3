@@ -60,7 +60,7 @@
 		276794241E2E508200F65B5A = {
 			isa = PBXGroup;
 			children = (
-				2767942F1E2E508300F65B5A /* Project1 */,
+				2767942F1E2E508300F65B5A /* Project3 */,
 				2767942E1E2E508300F65B5A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +73,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2767942F1E2E508300F65B5A /* Project1 */ = {
+		2767942F1E2E508300F65B5A /* Project3 */ = {
 			isa = PBXGroup;
 			children = (
 				276794301E2E508300F65B5A /* AppDelegate.swift */,
@@ -85,6 +85,7 @@
 				2767943C1E2E508300F65B5A /* Info.plist */,
 				276794421E2E515E00F65B5A /* Content */,
 			);
+			name = Project3;
 			path = Project1;
 			sourceTree = "<group>";
 		};
